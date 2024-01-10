@@ -104,7 +104,8 @@ p, span, li{
 }
 
 #contacto{
-  background-image: url(/assets/fondos/istockphoto-948375024-1024x1024-min.png);
+  min-height: 100vh;
+  background-color: #EEDDC6;
   background-size:cover;
   background-attachment: fixed;
   background-position: center;
@@ -139,11 +140,14 @@ p, span, li{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin-top: 2rem;
+  text-decoration: none;
+  color: black;
 }
 
 .card-container{
   width: 100% ;
-  background-color: rgba(250, 235, 215, 0.656);
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  background-position: center;
 }
 
 .topbar{
