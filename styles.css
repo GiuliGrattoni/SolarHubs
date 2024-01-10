@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url(/assets/tipografia/GlacialIndifference-Regular.otf);
+}
+@font-face {
+  font-family: 'GlacialIndifferenceBold';
+  src: url(/assets/tipografia/GlacialIndifference-Bold.otf);
+}
+
+.filler{
+  min-height: 500px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'GlacialIndifference';
+}
+
+h3{
+  font-family: 'GlacialIndifferenceBold';
+  font-size: 2.32rem;
+}
+
+p, span, li{
+  font-size: 1.3rem;
+}
+
+#nosotros p{
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+#comunidad-solar h3{
+  padding-left: 0;
+  padding-top: 1rem;
+}
+
+.navbar{
+  padding-left: 5rem;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-items{
+  padding-right: 5rem;
+}
+
+.hero{
+  width: 100%;
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  min-height: 100vh;
+}
+
+.hero h1{
+  padding-top: 12rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'GlacialIndifferenceBold';
+}
+
+.hero h2{
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: 'GlacialIndifferenceBold';
+}
+
+.decor1, .decor2{
+  position: absolute;
+  top: 400px;
+}
+
+.decor1{
+  left: 8%;
+}
+
+.decor2{
+  right: 8%;
+}
+
+.quienes-somos{
+  background-image: url(/assets/fondos/istockphoto-514454061-1024x1024-min.png);
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  justify-self: end;
+  position: relative;
+}
+
+#nosotros{
+  text-align: center;
+  justify-content: center;
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#contacto{
+  background-image: url(/assets/fondos/istockphoto-948375024-1024x1024-min.png);
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#contacto .card{
+  border: 0;
+  width: 100%;
+  padding: 3rem;
+  background-color: transparent;
+}
+
+#contacto .card i, #contacto .card span{
+  padding: 1rem;
+  text-align: center;
+}
+
+.ver-mas{
+  background-color: rgba(165, 50, 46, 0.48);
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: BOLD;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card-container{
+  width: 100% ;
+  background-color: rgba(250, 235, 215, 0.656);
+}
+
+.topbar{
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 5rem;
+}
+
+.bottombar{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.text-align-center{
+  text-align: center;
+}
+
+.bar-img{
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  background-position: bottom 500px;
+  background-image: url(/assets/fondos/istockphoto-907924064-1024x1024-min.png);
+}
+
+.box{
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.relative{
+  position: relative;
+}
+
+.form-absoulte{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#comunidad-solar{
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+#comunidad-solar .comunidad-container{
+  padding-left: 5rem;
+}
+
+
+
+.beneficios-certificacion{
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beneficios .box .card{
+  border: solid 1px ;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#beneficios h3{
+  padding-left: 4rem;
+  padding-top: 5rem;
+}
+
+#certificacion h3{
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#certificacion li{
+  padding-top: 2rem;
+  list-style: circle;
+  text-align: justify;
+}
+
+
+
+.partial-border{
+  border: 1px solid black;
+  border-radius: 1rem;
+  position: relative;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+.reviews{
+  background-image: url(/assets/fondos/istockphoto-948375024-1024x1024-min.png);
+  background-attachment: fixed;
+  background-position: bottom;
+  padding: 4rem;
+  position: relative;
+  padding-bottom: 8.2rem;
+}
+
+#footer{
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+}
+
+.footer-bottom{
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+  align-items: end;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#footer .card{
+  width: 100%;
+  padding: 3rem;
+  background-color: transparent;
+}
+
+#footer .reviews .card{
+  padding: 1rem;
+  background-image: url(/assets/fondos/Fondo\ completo-min.png);
+  opacity: 0.77;
+  border-radius: 0;
+  max-width: 300px;
+  min-height: 500px;
+}
+
+.border3{
+  border: 2px solid #F3D738;
+}
+
+.border2{
+  border: 2px solid #A6322E;
+}
+
+.border1{
+  border: 2px solid #5772A7;
+}
+
+.border0{
+  border: 0;
+}
+
+@media (max-width: 1400px) {
+  .wrap-1400px{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrap-1000px{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #comunidad-solar .comunidad-container{
+    padding-left: 1rem;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .decor1, .decor2{
+    display: none;
+  }
+
+  .navbar{
+    padding-left: 0;
+  }
+  
+  .nav-items{
+    padding-right: 0;
+  }
+  
+  .nav-items a img{
+    width: 75px;
+  }
+  
+  .navbar-brand img{
+    width: 150px;
+  }
+
+  .wrap-768px{
+    flex-wrap: wrap;
+  }
+
+  #comunidad-solar h3{
+    font-size: 2rem;
+  }
+
+  .reviews{
+    min-height: 100vh;
+    padding-top: 0;
+  }
+}
