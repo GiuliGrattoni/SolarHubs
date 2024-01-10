@@ -118,6 +118,17 @@ p, span, li{
   padding-bottom: 5rem;
 }
 
+#donde{
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
 #contacto .card{
   border: 0;
   width: 100%;
