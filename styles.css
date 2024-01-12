@@ -226,13 +226,12 @@ img {
   padding-left: 5rem;
 }
 
-
-
 .beneficios-certificacion{
   background-image: url(/assets/fondos/Fondo\ completo-min.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 #beneficios .box .card{
   border: solid 1px ;
@@ -244,6 +243,11 @@ img {
 #beneficios h3{
   padding-left: 4rem;
   padding-top: 5rem;
+}
+
+#certificacion{
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
 #certificacion h3{
@@ -267,7 +271,6 @@ img {
   margin-bottom: 1rem;
 }
 
-
 .reviews{
   background-image: url(/assets/fondos/istockphoto-948375024-1024x1024-min.png);
   background-attachment: fixed;
@@ -275,6 +278,33 @@ img {
   padding: 4rem;
   position: relative;
   padding-bottom: 8.2rem;
+}
+
+.modal-content{
+  background-image: url(/assets/fondos/Fondo\ de\ Formulario-min.png);
+  border: 1px solid black;
+  border-radius: 1.1rem;
+}
+
+.modal-wrapper{
+  border: 0.5rem solid #CB8B7D;
+  border-radius: 1rem;
+}
+
+.btn-formulario{
+  background-color: #EEDDC6;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+
+
+.modal-header{
+  border: 0;
+}
+
+#carouselExample{
+  width: 100%;
+  background-color: #A6322E;
 }
 
 #footer{
